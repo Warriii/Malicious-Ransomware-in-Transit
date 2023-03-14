@@ -1,0 +1,4 @@
+Oh no! The evil terrorist group Apocalypse have stolen a precious and very dangerous artifact from a raid on a secret government base, and is now using the malicious ransomware to encrypt all files!
+The ransomware seems to use some very state of the art geolocation cryptography at particular points in time to encrypt the data...can you find a way to stop it and reverse its nefarious encryption?
+
+Attached is a database that was uncovered by our secret agent within Apocalypse which had been used to encrypt the data...can you make sense of it?
