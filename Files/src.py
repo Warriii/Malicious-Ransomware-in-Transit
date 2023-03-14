@@ -2,7 +2,9 @@ def stateoftheart_apocalyptic_encryptfunction(blkA, blkB):
     return bytes([i^j for i, j in zip(blkA, blkB)])
 
 flag = open('flag.txt','rb').read()
-geo_codes = [i.rstrip() for i in open('secret','rb').readlines()]
+geo_codes = open('secret','rb').read().rstrip().split()
+# example:
+# BGB BBT JUR CNG LKS
 
 ctext = b''
 for i in range(0,len(flag),3):
